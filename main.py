@@ -19,14 +19,14 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8224979760:AAFieJFk6Tedtrqg4NKiqhJoZHdYSXlt8Eo"
-SUPER_ADMIN_IDS = {7721881567, 7388690934, 6134093170}
+BOT_TOKEN = "8387217004:AAETvCDVv8oJuXONj00ZmbXrTSaF0vKDI0I"
+SUPER_ADMIN_IDS = {7504103313}
 VALUTE = "TON"
-TON_ADDRESS = "UQAPAz_HELXWFbD1ZYKUxgRc_h5wPwIUD3wlZslOy5xzpyTg"
-SBP_CARD = "+79290556299 - Сбп"
+TON_ADDRESS = "UQADDoRm-V1cda4DB5IZY6yt-Rh1gV_EyKJgTPR3y0SG2Rkc"
+SBP_CARD = "+79184626271 - Сбп"
 
 # Переменная для хранения ID чата уведомлений
-NOTIFICATION_CHAT_ID = -1002924390102
+NOTIFICATION_CHAT_ID = -1003275473795
 
 user_data = {}
 deals = {}
@@ -1195,4 +1195,5 @@ def main():
         logger.error(f"Ошибка в main: {e}", exc_info=True)
 
 if __name__ == '__main__':
+
     main()
